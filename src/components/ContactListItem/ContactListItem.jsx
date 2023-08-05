@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import css from '../ContactListItem/ContactListItem.module.css'
 
 const ContactListItem = ({ id, name, number, deleteContact }) => (
-  <li key={id} className={css.item}>
+  <li className={css.item}>
     <p className={css.text}>
       {name}: <span>{number}</span>
     </p>
